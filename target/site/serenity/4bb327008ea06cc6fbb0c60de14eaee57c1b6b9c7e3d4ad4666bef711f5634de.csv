@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing User creation and verifying all data","Create a new user data","SUCCESS","2023-01-10T21:32:15.537Z[Europe/London]","0.0","19.08"
+"Testing User creation and verifying all data","Get User details","SUCCESS","2023-01-10T21:32:37.828Z[Europe/London]","0.0","0.62"
+"Testing User creation and verifying all data","Update  user details data","SUCCESS","2023-01-10T21:32:38.619Z[Europe/London]","0.0","0.56"
+"Testing User creation and verifying all data","Delete user details","SUCCESS","2023-01-10T21:32:39.299Z[Europe/London]","0.0","0.46"

@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Data Driven test for creating multiple users</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+            > Data Driven test for creating multiple users
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-01-2023 21:32</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">User Data Driven Test</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                    <span class="success-color">
+                                    Data Driven Test For Creating Multiple Users
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">Creating User with Name :&lt;NAME&gt;, email : &lt;EMAIL&gt;, gender : &lt;GENDER&gt; and status: &lt;STATUS&gt;</div>
+
+    </div>
+
+    <div id="beforetable"></div>
+
+
+        <h3 class="story-header">Examples:</h3>
+        <div class="example-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>NAME</th>
+                        <th>EMAIL</th>
+                        <th>GENDER</th>
+                        <th>STATUS</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">Aleen Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">aswashasaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#1">2</a></td>
+                            <td class="test-SUCCESS"><a href="#1">Anjali Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">aswashsdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#2">3</a></td>
+                            <td class="test-SUCCESS"><a href="#2">Anna Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">aswashddaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#3">4</a></td>
+                            <td class="test-SUCCESS"><a href="#3">Amelia Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">aswashfdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#4">5</a></td>
+                            <td class="test-SUCCESS"><a href="#4">Evelyn Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">aswashgdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#5">6</a></td>
+                            <td class="test-SUCCESS"><a href="#5">Emma Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">aswashhdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#6">7</a></td>
+                            <td class="test-SUCCESS"><a href="#6">Ava Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">aswashjdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#7">8</a></td>
+                            <td class="test-SUCCESS"><a href="#7">Charlotte Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">aswashkdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#8">9</a></td>
+                            <td class="test-SUCCESS"><a href="#8">Alice Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">aswashldaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#9">10</a></td>
+                            <td class="test-SUCCESS"><a href="#9">Ella Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">aswashqdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#10">11</a></td>
+                            <td class="test-SUCCESS"><a href="#10">Grace Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">aswashwdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#11">12</a></td>
+                            <td class="test-SUCCESS"><a href="#11">Sophia Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">aswashedaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#12">13</a></td>
+                            <td class="test-SUCCESS"><a href="#12">Chloe Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">aswashrdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">active</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#13">14</a></td>
+                            <td class="test-SUCCESS"><a href="#13">Luna Swash</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">aswashtdaa@acquirethisname.com</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">Female</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">active</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="100" class="greentext">Outcome</th>
+                    <th width="75" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">17.41s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Aleen Swash, email : aswashasaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">17.41s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-3">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-3" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Aleen Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashasaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:32 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;599c169b4cde2a5347cfe91524be11a5&quot;<br>location: https://gorest.co.in/public/v2/users/42438<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 89<br>x-ratelimit-reset: 2<br>x-request-id: 45c6da81-ac47-49a7-b494-2fdd52d69799<br>x-runtime: 0.102859<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=EZg7uukniGyKxPsfrm6h%2FdfyDamf21AoXqhZ80drqbq1TfyyujZjFRVjp7Jp4z0IV3cTKoCP7Asaj9cjYHLtZCHQPMOGE%2FGVCk4RDFC5oHNbmxgxB%2FrCt46HVuPr1A0%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 7878869e1a9524da-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42438,<br>    &quot;name&quot;: &quot;Aleen Swash&quot;,<br>    &quot;email&quot;: &quot;aswashasaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.49s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Anjali Swash, email : aswashsdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.49s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-6">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-6" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Anjali Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashsdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:33 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;e8daad970468cb3b96f1e415e920a73a&quot;<br>location: https://gorest.co.in/public/v2/users/42439<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 88<br>x-ratelimit-reset: 2<br>x-request-id: 764da8a6-b475-47a1-9c4d-2291e52f53f3<br>x-runtime: 0.060850<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ReOjgQz4lTXDrtngSHWhhdJPr3rumIojBLqyj2J%2F3mZqqycCo1dVatJir5ErV%2Fi5ldCN601ofEyW%2BZP%2BeZqbHPvo6JyU1lngpez3WOdtD2BmL4z9FdlogDA1yG4RYLc%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886a45a637190-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42439,<br>    &quot;name&quot;: &quot;Anjali Swash&quot;,<br>    &quot;email&quot;: &quot;aswashsdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.47s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Anna Swash, email : aswashddaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.47s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-9">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-9" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Anna Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashddaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:34 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;8c3dd492f719933386bbf2fa1d070838&quot;<br>location: https://gorest.co.in/public/v2/users/42440<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 88<br>x-ratelimit-reset: 2<br>x-request-id: fe2cf6ce-b61c-49e3-93a2-9409b2914c39<br>x-runtime: 0.089508<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=xWqioq3zfPb2nxWcl7tyqYsEvrHiD9fz9NQeY1fRJqn%2B%2BKF4XmA5I6gyH%2F9EIK2OH2Y9H%2FbgYBGAID%2F8xqwsabnA7%2FiVucHgSoxWCSVvQVy%2FXQqfnUXbjKFQ3u0Q4fs%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886a72d897795-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42440,<br>    &quot;name&quot;: &quot;Anna Swash&quot;,<br>    &quot;email&quot;: &quot;aswashddaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.47s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Amelia Swash, email : aswashfdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.47s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-12">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-12" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Amelia Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashfdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:34 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;6d97da05c1a20612fd1ff1e6ad283f60&quot;<br>location: https://gorest.co.in/public/v2/users/42441<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 87<br>x-ratelimit-reset: 3<br>x-request-id: dfb098a2-7428-4e03-86a3-a8c82e5d8f7e<br>x-runtime: 0.058449<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=0ScdSa9Ri4WKh2caSD5X%2F9IQru41yt%2FOG1%2BM63%2BKt45g6cqdnKbxWX8Sq8sKpKXSySbi3Tg2p4WhxjNsrmHXsK0vDQOKbrzb%2BNHQ4DOoaD%2BtGDMVugudYbHJTfnGvfU%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886aa5b04dcd3-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42441,<br>    &quot;name&quot;: &quot;Amelia Swash&quot;,<br>    &quot;email&quot;: &quot;aswashfdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection4 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.54s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection4" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Evelyn Swash, email : aswashgdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.54s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-15">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-15" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Evelyn Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashgdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:35 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;50ba33d6a9d8ecc732f6adeb11712b6e&quot;<br>location: https://gorest.co.in/public/v2/users/42442<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 86<br>x-ratelimit-reset: 4<br>x-request-id: 342de3c0-a204-4770-89d1-f22b6fe8c861<br>x-runtime: 0.070790<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=mJwfoy033cdoZV2LxBfeQyP1QNVLDs3mRjtcI7wCMbjV5d6YyI5WzLe%2F4yH3Vd%2FEo2tZDfl3xYPT7to%2FVNqSuIg46EGmaL0np9Jzi4NeXvOnh2EzX8ObeTdzdcBTP2w%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886ad9f3a24e3-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42442,<br>    &quot;name&quot;: &quot;Evelyn Swash&quot;,<br>    &quot;email&quot;: &quot;aswashgdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="5"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection5 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.45s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection5" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Emma Swash, email : aswashhdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.45s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-18">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-18" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Emma Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashhdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:35 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;1bd9d30d2a6bb37932fc730d8555b879&quot;<br>location: https://gorest.co.in/public/v2/users/42443<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 85<br>x-ratelimit-reset: 4<br>x-request-id: 5c8731d4-827f-42ee-b69e-aea605d31496<br>x-runtime: 0.067407<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=w%2FipoBswL2kkfbggPVOQNdWGCgj1bwOnHvwyU97fxz6HXUCaNu3t8Uao2U6%2BJ8FyXUVrub3PE25Sgz5s4bbKhn849TO77Lalwj0CBEsfh60OiOs01CT%2BonqD7ZWUYMY%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886b09804771d-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42443,<br>    &quot;name&quot;: &quot;Emma Swash&quot;,<br>    &quot;email&quot;: &quot;aswashhdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="6"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection6 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.43s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection6" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Ava Swash, email : aswashjdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.43s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-21">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-21" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Ava Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashjdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:35 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;de2ff4ff6f681780d530aaa155108fd1&quot;<br>location: https://gorest.co.in/public/v2/users/42444<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 84<br>x-ratelimit-reset: 5<br>x-request-id: 57f25990-0e13-4101-a8c2-d8bf807194d2<br>x-runtime: 0.055141<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=h7xkdSInYilHsaqCngBuJb7jOG%2B0bTFGXm0%2BLlMpJ1RuuNNRqD%2FfHmSft0zl0NX42spuwrciQqaPTJh6UvsJW8c9R1Yp5D96esOFARfM63akKL1%2BG%2BWWTRFnN3XLvSo%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886b37b46dcc7-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42444,<br>    &quot;name&quot;: &quot;Ava Swash&quot;,<br>    &quot;email&quot;: &quot;aswashjdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="7"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection7')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection7 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection7')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.44s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection7" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Charlotte Swash, email : aswashkdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.44s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-24">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-24" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Charlotte Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashkdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:36 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;113af930b28348acb7a2f0ca7ac68b42&quot;<br>location: https://gorest.co.in/public/v2/users/42445<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 83<br>x-ratelimit-reset: 6<br>x-request-id: 726e264c-6780-44d5-b253-c73256a1ce0d<br>x-runtime: 0.061942<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=QTWTo4cUBt9F3IAVuONOq0Un6vtsCLDfDB3WR1QfzR%2BDVHkIY3nD4XGiZk4LaNxWg%2BQNeGWk%2BXAHXnpN7GY4%2Fs%2B4KhCLOB76MMUSataV4bUZkoGzENe44BaQ1tCQwFY%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886b63fa57433-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42445,<br>    &quot;name&quot;: &quot;Charlotte Swash&quot;,<br>    &quot;email&quot;: &quot;aswashkdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="8"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection8 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.48s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection8" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Alice Swash, email : aswashldaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.48s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-27">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-27" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Alice Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashldaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:36 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;331f16f5c231319b3dea90b6e5e5348d&quot;<br>location: https://gorest.co.in/public/v2/users/42446<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 82<br>x-ratelimit-reset: 6<br>x-request-id: a2911dea-fd86-45c8-90f3-9f3e6c1cf956<br>x-runtime: 0.102761<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FvE34VNeWD2NsYlZE1nWTO2R%2FtQe1niOFY8%2F9HidImhPihXLizIoj7%2BZRtxXKGcFImpaBIBjJwJYbLj%2BxRmfzLQXizPLWD2krInYE6Jb33o5BPcWoJPkN2gr1Ye436Y%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886b91da772a0-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42446,<br>    &quot;name&quot;: &quot;Alice Swash&quot;,<br>    &quot;email&quot;: &quot;aswashldaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="9"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection9 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.48s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection9" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Ella Swash, email : aswashqdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.48s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-30">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-30" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Ella Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashqdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:37 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;d3cdf31c1e675b43e0a324be3dc5d12c&quot;<br>location: https://gorest.co.in/public/v2/users/42447<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 81<br>x-ratelimit-reset: 7<br>x-request-id: a5fac780-f7f7-4f00-b33d-4b5ed7daf675<br>x-runtime: 0.131820<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=snSlmiBHsiIjsWf24%2B1vhQ0DeAAKBPsqsdJNeJsg8ksCdV9OkvQievZsG86UHVzCrX6mSePAPFxjPry6a%2Bb3N4wz5EWQ%2BGz54Y23CXJmkcgb0GFChCeHp4aHMu4qdGU%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886bbdfe77720-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42447,<br>    &quot;name&quot;: &quot;Ella Swash&quot;,<br>    &quot;email&quot;: &quot;aswashqdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="10"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection10 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.55s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection10" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Grace Swash, email : aswashwdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.55s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-33">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-33" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Grace Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashwdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:37 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;6338729c21a1314e0156f4ce9b8ab749&quot;<br>location: https://gorest.co.in/public/v2/users/42448<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 79<br>x-ratelimit-reset: 8<br>x-request-id: a6036316-3976-4369-9703-47e7d1b8fedc<br>x-runtime: 0.115820<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=lGFDd8Ca%2BmYWJwN%2F8PAFmk9pXgzDQVBcHxnd7XG1Ipld2u1DyL6wJcOZPEkRyYC2IrphNUrL4HiRMEAJ4XyzZ4J3lvghlkhBpkrIzwOKw3dpN4UIMZT9k7SOwC6mcB0%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886bf6900745b-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42448,<br>    &quot;name&quot;: &quot;Grace Swash&quot;,<br>    &quot;email&quot;: &quot;aswashwdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="11"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection11 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.48s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection11" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Sophia Swash, email : aswashedaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.48s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-36">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-36" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Sophia Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashedaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:38 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;7b606e5e601426b6a1848c696818f981&quot;<br>location: https://gorest.co.in/public/v2/users/42449<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 77<br>x-ratelimit-reset: 10<br>x-request-id: 6b9122b4-a40f-4018-8ee2-586c5b788e89<br>x-runtime: 0.068140<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ar8Cd9jf9OBqX18v8SY7rt3ANyBdwIrShUmco239ruEEE%2F6M%2F%2BCRlS%2FjlNfk5nbeDNO4XuZwaE7fdu1hPZd0ttkT%2F%2Fak1kDipoLNGEyrnkTP%2BpzbEUxggYuAOWSNvQ4%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886c2dc2c23ed-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42449,<br>    &quot;name&quot;: &quot;Sophia Swash&quot;,<br>    &quot;email&quot;: &quot;aswashedaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="12"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection12 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.42s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection12" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Chloe Swash, email : aswashrdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.42s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-39">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-39" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Chloe Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashrdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:38 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;22e46bfc2e8b4894f8b47932492919e8&quot;<br>location: https://gorest.co.in/public/v2/users/42450<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 76<br>x-ratelimit-reset: 10<br>x-request-id: c2d3c9ea-9314-4dbe-8a2e-90d6308e4fdc<br>x-runtime: 0.072142<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=b86fHBGXQ6j00mcvzA5LpFrIPZBGOjGVZS8JmximjNb8eS2SRh0599MgPUR73fnnlSJdkoZTl0Q5ntlfqopyE8lJ9QTNI4mvzgCP2Edghf4Jn9vO6C2FydleWYbHGi4%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886c5bd5b4057-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42450,<br>    &quot;name&quot;: &quot;Chloe Swash&quot;,<br>    &quot;email&quot;: &quot;aswashrdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="13"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection13 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block;">
+                            <span class="top-level-step">Data Driven test for creating multiple users </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.43s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection13" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating User with Name :Luna Swash, email : aswashtdaa@acquirethisname.com, gender : Female and status: active</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.43s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://gorest.co.in/public/v2/users</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-42">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-42" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://gorest.co.in/public/v2/users
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Authorization=Bearer f18701fb30de652b28f69e533949d14bf5a6aa48784ef8a29bf6b3871c99e766<br>Connection=keep-alive<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Luna Swash&quot;,<br>    &quot;gender&quot;: &quot;Female&quot;,<br>    &quot;email&quot;: &quot;aswashtdaa@acquirethisname.com&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Date: Tue, 10 Jan 2023 21:32:39 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;187bba0dbaf2fdbbf0baf725ecd20b4b&quot;<br>location: https://gorest.co.in/public/v2/users/42451<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 75<br>x-ratelimit-reset: 11<br>x-request-id: f9eb4a2a-69e0-4cd3-bad5-599374a0d666<br>x-runtime: 0.073736<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2B5xWf2kUCtmPhkCaaWs7kyd84WLFjrVJVlvX0%2BnJLTHIFbSSLY87sif5%2FEjOuQF6DS2QQny6r1sFDh3G3cE%2B3R56M3%2BJQf9e3LfFi6KZLhbVSJbcUEnyio3Z%2BF2iifY%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 787886c84c87718c-LHR<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 42451,<br>    &quot;name&quot;: &quot;Luna Swash&quot;,<br>    &quot;email&quot;: &quot;aswashtdaa@acquirethisname.com&quot;,<br>    &quot;gender&quot;: &quot;female&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>23.54s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+    <div id="bottomfooter">
+        <span class="version">Serenity BDD version 1.5.1</span>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('.example-table table').DataTable({
+            "order": [[0, "asc"]],
+            "pageLength": 25,
+            "scrollX": "100%",
+            "scrollXInner": "100%",
+            "scrollCollapse": true
+        });
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>

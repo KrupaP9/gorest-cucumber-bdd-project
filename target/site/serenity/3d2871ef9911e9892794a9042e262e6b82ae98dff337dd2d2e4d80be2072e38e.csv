@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User data driven test","Data Driven test for creating multiple users","SUCCESS","2023-01-10T21:32:40.152Z[Europe/London]","0.0","23.54"
+"Tags test","This test will status code 404 when incorrect tag is provided","SUCCESS","2023-01-10T21:32:42.393Z[Europe/London]","0.0","1.12"
+"Tags test","This test will provide an error code of 404 when user tries to access an invalid resource","SUCCESS","2023-01-10T21:32:43.513Z[Europe/London]","0.0","0.59"

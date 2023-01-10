@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","This test will provide an error code of 404 when user tries to access an invalid resource","SUCCESS","2023-01-10T21:32:43.513Z[Europe/London]","0.0","0.59"

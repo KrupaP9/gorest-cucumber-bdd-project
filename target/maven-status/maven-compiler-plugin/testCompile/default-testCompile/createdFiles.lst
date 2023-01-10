@@ -1,0 +1,6 @@
+com\gorest\cucumber\steps\GoRestSteps.class
+com\gorest\testbase\TestBase.class
+com\gorest\cucumber\CucumberRunner.class
+com\gorest\cucumber\steps\GorestEndPointSteps.class
+com\gorest\datadriventests\UserDataDrivenTest.class
+com\gorest\datadriventests\TagsTest.class
